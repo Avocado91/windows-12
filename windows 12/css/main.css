@@ -1,0 +1,290 @@
+/**************************************
+              GENERAL
+**************************************/
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  line-height: 50px;
+  font-weight: 300;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.horizontal {
+  border-bottom: 1px solid rgb(126, 170, 226);
+  width: 150px;
+  height: 1px;
+  margin: 30px 0;
+}
+
+.horizontal-middle {
+  margin: 30px 43%;
+}
+
+/**************************************
+              HEADER
+**************************************/
+
+.header {
+  height: 100vh;
+  background-image: url(http://res.cloudinary.com/dnwwprta0/image/upload/c_crop,h_1641/a_180/v1493268973/gradient-blue-grey-linear-3840x2160-c2-1e90ff-d3d3d3-a-210-f-14_epqqhm.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  padding-top: 125px;
+}
+
+.header h1 {
+  font-size: 3em;
+  display: none;
+  padding-top: 25px;
+}
+
+.header p  {
+  margin: 25px 25%;
+  font-size: 1.3em;
+  display: none;
+}
+
+.fa-windows {
+  font-size: 7em;
+  display: none;
+}
+
+.slider {
+  height:60px;
+           position:absolute;
+           left:44%;
+           bottom:-60px;
+}
+
+.discover {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 10px 40px;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+.discover:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.vertical {
+  border-right: 1px solid white;
+  margin: 0 50% 100% 0;
+  height: 100vh;
+}
+
+/**************************************
+              TOP
+**************************************/
+
+.top {
+  padding: 150px 0;
+  color: rgb(120, 120, 120);
+}
+
+.top img {
+  max-width: 550px;
+  border-radius: 5px;
+  float: right;
+}
+
+.top p {
+  font-size: 1.3em;
+}
+
+/**************************************
+              MAIN
+**************************************/
+
+.main {
+  background-image: url(http://agoragdl.com.mx/wp-content/themes/made/made/images/backgrounds/bg-blur-23.jpg);
+  background-attachment: fixed;
+  font-size: 1.3em;
+  color: white;
+  padding: 150px 0;
+}
+
+.middle {
+  margin: 40px 0;
+}
+
+.main ul {
+  list-style: none;
+  padding: 0;
+}
+
+.main li {
+  padding: 0;
+  margin: 50px;
+  border: 1px solid white;
+  transform: rotate(45deg);
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+}
+
+.main span {
+  margin-top: 35px;
+  margin-left: 35px;
+  padding: 0;
+  font-size: 4.5em;
+  transform: rotate(315deg)
+}
+
+.glyphicon-cloud {
+  color: rgb(156, 182, 215);
+}
+
+.glyphicon-bell {
+  color: rgb(124, 169, 227);
+}
+
+.glyphicon-cog {
+  color: rgb(91, 150, 226);
+}
+
+.glyphicon-print {
+  color: rgb(80, 140, 240);
+}
+
+.glyphicon-camera {
+  color: rgb(60, 130, 247);
+}
+
+.glyphicon-globe {
+  color: rgb(41, 125, 255);
+}
+
+/**************************************
+              LEARN MORE
+**************************************/
+
+.learn {
+  padding: 150px 0;
+  font-size: 1.3em;
+  color: rgb(120, 120, 120);
+  text-align: center;
+}
+
+.learn-info {
+  margin-top: 30px;
+}
+
+.learn img {
+  width: 350px;
+  box-shadow: 5px 5px 10px #888;
+  border-radius: 5px;
+}
+
+.learn h3 {
+  font-weight: 300;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+
+.learn button {
+  background-color: transparent;
+  border: 1px solid #888;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 10px 50px;
+  font-size: 1em;
+  letter-spacing: 2px;
+  color: rgb(120, 120, 120);
+  font-weight: 300;
+}
+
+.learn button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/**************************************
+              SIGN UP
+**************************************/
+
+.sign-up {
+  background-image: url(http://agoragdl.com.mx/wp-content/themes/made/made/images/backgrounds/bg-blur-23.jpg);
+  background-attachment: fixed;
+  font-size: 1.3em;
+  color: white;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.sign-up button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 50px 15px 0;
+    width: 220px;
+    padding: 10px 40px;
+    font-size: 1em;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 300;
+}
+
+#signup {
+  background-color: white;
+  color: rgb(120, 120, 120);
+}
+
+.sign-up button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+#signup:hover {
+  background-color: rgba(2255, 255, 255, 0.2);
+  color: white;
+}
+
+/**************************************
+              FOOTER
+**************************************/
+
+.footer {
+  padding: 125px 0 75px;
+  background-image: url(http://res.cloudinary.com/dnwwprta0/image/upload/c_crop,h_1641/a_180/v1493268973/gradient-blue-grey-linear-3840x2160-c2-1e90ff-d3d3d3-a-210-f-14_epqqhm.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+}
+
+.social {
+  font-size: 2.5em;
+  letter-spacing: 10px;
+  margin-bottom: 25px;
+}
+
+.social a:hover {
+  color: rgba(0, 0, 0, 0.1);
+}
